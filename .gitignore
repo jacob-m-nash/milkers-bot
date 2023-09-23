@@ -1,0 +1,4 @@
+.env
+node_modules
+message_rate_log.txt
+.vscode/settings.json
