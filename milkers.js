@@ -66,6 +66,8 @@ client.on('message', (channel, user, message, self) => {
     case '!dad':
       const year = Math.floor(Math.random() * 18);
       client.say(channel, `${user['display-name']} Dad left to get milk from the shops ${year} years ago, but he will be back soon.`);
+    case '!supply':
+      client.say(channel, `———————————————————————— TwitchVotes Daily supply of Milk has arrived!————————————————————————`);
     default:
       // Default behavior, if needed
       break;
